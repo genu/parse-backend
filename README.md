@@ -44,7 +44,7 @@ angular.module('app').controller('Product', function($scope, ParseBackend) {
 * See the official [Parse Javascript SDK](https://parse.com/docs/js/guide) for parse specific methods. Remember, the official SDK specification should be valid.
 
 ## Roadmap
-* Add angular like double binding to Parse objects
+* Add angular-like double binding to Parse objects
 * Find/build a Parse mocking module for properly testing this
 
 ## Contributing
