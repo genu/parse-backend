@@ -6,7 +6,11 @@ Angular support for the Parse Javascript SDK using angular promises.
   
 ## Getting started
 
+**Install via bower**
+
 `bower install parse-backend --save`
+
+**Configure**
 
 ```javascript
 angular.module('app', ['module.ParseBackend']).config(function('ParseBackendProvider'){
@@ -14,6 +18,8 @@ angular.module('app', ['module.ParseBackend']).config(function('ParseBackendProv
     ParseBackendProvider.setJavascriptKey('PARSE_JAVASCRIPT_KEY');
 });
 ```
+
+**Using in controller**
 
 ```javascript
 angular.module('app').controller('Product', function($scope, ParseBackend) {
