@@ -1,3 +1,9 @@
 docs:
   - 'clean:docs'
   - 'ngdocs:api'
+
+build:
+  - 'clean:build'
+  - 'ngAnnotate'
+  - 'uglify'
+  - 'clean:annotated'

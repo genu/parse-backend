@@ -6,6 +6,16 @@ module.exports = function () {
                     src: ['docs']
                 }
             ]
+        },
+        build: {
+            files: {
+                src: ['build']
+            }
+        },
+        annotated: {
+            files: {
+                src: ['build/annotated']
+            }
         }
     }
 };
