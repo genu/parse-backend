@@ -1,0 +1,30 @@
+{
+  "name": "parse-backend",
+  "version": "1.0.0",
+  "homepage": "https://github.com/genu/parse-backend",
+  "authors": [
+    "Eugen Istoc <eugenistoc@gmail.com>"
+  ],
+  "description": "Angular support for the Parse Javascript SDK",
+  "main": "dist/parse-backend.js",
+  "keywords": [
+    "parse",
+    "backend"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.10.1"
+  },
+  "devDependencies": {
+    "angular": "~1.4.5",
+    "angular-mocks": "~1.4.5",
+    "parse": "~1.5.0"
+  }
+}
