@@ -6,7 +6,7 @@
     "Eugen Istoc <eugenistoc@gmail.com>"
   ],
   "description": "Angular support for the Parse Javascript SDK",
-  "main": "dist/parse-backend.min.js",
+  "main": "dist/parse-backend.js",
   "keywords": [
     "parse",
     "backend"
