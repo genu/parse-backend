@@ -20,7 +20,7 @@ angular.module('app', ['module.ParseBackend']).config(function('ParseBackendProv
 ### Using the service
 
 ```javascript
-angular.module('app').controller('Prodcut', function($scope, ParseBackend) {
+angular.module('app').controller('Product', function($scope, ParseBackend) {
   var Product, product;
   
   Product = ParseBackend.Object.extend('Product');
