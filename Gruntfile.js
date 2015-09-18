@@ -12,7 +12,7 @@ module.exports = function (grunt) {
         data: {
             pkg: grunt.file.readJSON('bower.json'),
             src: 'src',
-            banner: '/*!\n * <%= pkg.name %> -v<% pkg.version %> - <%= grunt.template.today("yyyy-mm-dd") %>\n */\n\n'
+            banner: '/*!\n * <%= pkg.name %> -v <%= pkg.version %> -build <%= grunt.template.today("yyyy-mm-dd") %>\n */\n\n'
         }
     });
 };
