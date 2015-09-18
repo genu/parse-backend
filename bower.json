@@ -25,6 +25,6 @@
   "devDependencies": {
     "angular": "~1.4.5",
     "angular-mocks": "~1.4.5",
-    "parse": "~1.5.0"
+    "parse": "latest"
   }
 }
