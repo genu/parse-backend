@@ -4,6 +4,11 @@ module.exports = function (grunt) {
     require('time-grunt')(grunt);
 
     require('load-grunt-config')(grunt, {
+        jitGrunt: {
+            staticMappings: {
+                ngAnnotate: 'grunt-ng-annotate'
+            }
+        },
         data: {
             pkg: grunt.file.readJSON('bower.json'),
             src: 'src',
