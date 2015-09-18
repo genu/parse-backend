@@ -1,3 +1,3 @@
 'use strict';
 
-r.module('module.ParseBackend', []);
+angular.module('module.ParseBackend', []);
