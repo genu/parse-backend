@@ -5,7 +5,7 @@ module.exports = function () {
                 expand: true,
                 cwd: '<%= src %>',
                 src: '**/*.js',
-                dest: 'build/annotated'
+                dest: 'dist/annotated'
             }]
         }
     }

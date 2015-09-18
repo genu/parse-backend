@@ -1,8 +1,8 @@
 module.exports = function () {
     return {
         build: {
-            src: 'build/annotated/**/*.js',
-            dest: 'build/parse-backend.min.js'
+            src: 'dist/annotated/**/*.js',
+            dest: 'dist/parse-backend.min.js'
         }
     }
 };

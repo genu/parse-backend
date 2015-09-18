@@ -9,12 +9,12 @@ module.exports = function () {
         },
         build: {
             files: {
-                src: ['build']
+                src: ['dist']
             }
         },
         annotated: {
             files: {
-                src: ['build/annotated']
+                src: ['dist/annotated']
             }
         }
     }
