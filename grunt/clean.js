@@ -11,11 +11,6 @@ module.exports = function () {
             files: {
                 src: ['dist']
             }
-        },
-        annotated: {
-            files: {
-                src: ['dist/annotated']
-            }
         }
     }
 };

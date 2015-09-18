@@ -4,6 +4,6 @@ docs:
 
 build:
   - 'clean:build'
+  - 'concat'
   - 'ngAnnotate'
   - 'uglify'
-  - 'clean:annotated'

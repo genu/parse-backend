@@ -1,12 +1,8 @@
 module.exports = function () {
     return {
         build: {
-            files: [{
-                expand: true,
-                cwd: '<%= src %>',
-                src: '**/*.js',
-                dest: 'dist/annotated'
-            }]
+            src: "dist/parse-backend.js",
+            dest: "dist/parse-backend.js"
         }
     }
 };
