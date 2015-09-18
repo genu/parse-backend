@@ -78,7 +78,5 @@ angular.module('module.ParseBackend').factory('Patcher', function ($q, $rootScop
 
             return lib;
         }
-
-
     }
 });
