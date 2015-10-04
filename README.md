@@ -3,7 +3,7 @@ Angular support for the Parse Javascript SDK using angular promises.
 
 ## Overview
   This is a simple wrapper for the Parse Javascript SDK. All the methods that the official SDK supports should be supported by this service. The only difference is that Parse promises are converted to angular promises.
-  
+
 ## Getting started
 
 **Install via bower**
@@ -24,13 +24,13 @@ angular.module('app', ['module.ParseBackend']).config(function('ParseBackendProv
 ```javascript
 angular.module('app').controller('Product', function($scope, ParseBackend) {
   var Product, product;
-  
+
   Product = ParseBackend.Object.extend('Product');
-  
+
   product = new Product();
-  
+
   product.set("name", "Awesome Product");
-  
+
   product.save().then(function(product){
       $scope.addedProduct = product;
   }).catch(function(error){
@@ -40,7 +40,7 @@ angular.module('app').controller('Product', function($scope, ParseBackend) {
 ```
 ## Extra resources
 * See the specs under `src/modules/parse/tests`
-* Although there are only two configuration methods, they are documented [here](https://cdn.rawgit.com/genu/parse-backend/master/docs/index.html#/api/module.ParseBackend.ParseBackend)
+* Although there are only two configuration methods, they are documented [here](https://rawgit.com/genu/parse-backend/master/docs/index.html#/api/module.ParseBackend.ParseBackend)
 * See the official [Parse Javascript SDK](https://parse.com/docs/js/guide) for parse specific methods. Remember, the official SDK specification should be valid.
 
 ## Roadmap
