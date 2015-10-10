@@ -1,5 +1,5 @@
 /*!
- * parse-backend -v 1.0.2 -build 2015-10-09
+ * parse-backend -v 1.0.3 -build 2015-10-09
  */
 
 'use strict';
