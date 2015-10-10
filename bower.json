@@ -1,6 +1,6 @@
 {
   "name": "parse-backend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/genu/parse-backend",
   "authors": [
     "Eugen Istoc <eugenistoc@gmail.com>"
@@ -19,9 +19,11 @@
     "test",
     "tests"
   ],
+  "dependencies": {
+    "parse": "latest"
+  },
   "devDependencies": {
     "angular": "~1.4.5",
-    "angular-mocks": "~1.4.5",
-    "parse": "latest"
+    "angular-mocks": "~1.4.5"
   }
 }
